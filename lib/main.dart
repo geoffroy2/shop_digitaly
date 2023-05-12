@@ -17,6 +17,7 @@ class myApp extends StatelessWidget {
   Widget build(BuildContext context) {
     var data = EasyLocalizationProvider.of(context)!.data!;
 
+
     /// To set orientation always portrait
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
